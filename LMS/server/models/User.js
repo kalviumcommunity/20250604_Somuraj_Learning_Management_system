@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+//schema is created for user
 const userSchema = new mongoose.Schema(
   {
     _id: {type: String, required: true},
